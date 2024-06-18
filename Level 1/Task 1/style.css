@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+/*nav*/
+
+section
+{
+    background-color:bisque;
+    width: 100%;
+    justify-content: center;
+}
+.container
+{
+    width:100%;
+
+}
+
+nav{
+    position: fixed;
+    top :0;
+    background-color:#777;
+    width: 100%;
+}
+
+nav h1
+{
+    height: 80px;
+    float: left;
+    margin-left: 25px;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: skyblue;
+}
+nav ul
+{
+    float:right;
+    line-height: 80px;
+    overflow: hidden;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a
+{
+    color:black;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+
+}
+
+nav ul li a:hover{
+    background-color: lightblue;
+
+}
+
+nav ul li .active
+{
+    background-color:lightblue;
+}
+/*Home*/
+#catalog
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card
+{
+    width:325px;
+    background-color:#f0f0f0;
+    border-radius:8px;
+    overflow: hidden;
+    box-shadow:0px 2px 4px rgab(0,0,0,0,2);
+    margin:10px;
+    height: 640px;
+
+}
+
+.card img
+{
+    width:100%;
+    height:auto;
+    padding: 25px;
+}
+
+.card-content
+{
+    padding: 16px;
+    text-align: center;
+}
+
+.card-content h3
+{
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+
+.card-content p
+{
+    color:#666;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.card-content .btn
+{
+  display:inline-block;
+  padding: 8px 16px;
+  background-color:red;
+  text-decoration: none;
+  border-radius  :15px; 
+  color:white;
+}
+
+.card-content .btn:hover
+{
+    background-color:green;
+}
+
+/*About*/
+
+#about
+{
+    padding: 20px;
+    width:100%;
+    height: auto;
+    background-color:lightblue;
+    border-radius:15px;
+}
+
+#about h1
+{
+    text-align: start;
+    margin-left: 50px;
+    font-size: 85px;
+}
+
+#about p
+{
+    text-align: center;
+    font-size: 25px;
+    padding: 45px;
+    line-height: 1.5;
+}
+
+
+/*SErvices*/
+#services
+{
+    padding: 20px;
+    width:100%;
+    height: auto;
+    background-color:lightblue;
+    border-radius:15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#services h3
+{
+    text-align:center;
+    margin-left: 50px;
+    font-size: 65px;
+}
+
+#services p
+{
+    font-size: 25px;
+    padding: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#services ol
+{
+    font-size: 25px;
+    padding: 45px;
+    line-height: 1,5;
+    text-decoration: none;
+}
+
+
+/*advt in services*/
+
+
+#advt
+{
+    background-color:white;
+    height: auto;
+    width:auto;
+    border-radius:25px;
+    display: inline-block;
+    margin: 35px;
+    padding: 10px;
+    background-color:yellow;
+}  
+
+#advt h2
+{
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#advt img
+{
+    border-radius :50%;
+    width:250px;
+    height:250px;
+    padding: auto;
+}
+/*footer*/
+footer{
+    height: auto;
+    width: 100%;
+    background-color:#777;
+    color:white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 0;
+    
+    
+}
+
+footer h3{
+    text-align: center;
+
+}
+
+footer ul li{
+    display:inline-flex;
+    padding: 34px 30px;
+}
+footer li a
+{
+    color: white;
+    line-height: 1.5;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer li a:hover
+{
+    color:blue;
+}
